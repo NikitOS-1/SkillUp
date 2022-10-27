@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* _______________________________________________________________ */
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* _______________________________________________________________ */
+.col {
+    padding: auto;
+    margin: auto;
+    width: calc(100% - 20px);
+    /* max-width: 300px; */
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+    border: 1px solid hsl(180deg 3% 94%);
+}
+
+/* _______________________________________________________________ */
+h1 {
+    color: hsl(102deg 46% 32%);
+    padding-top: 50px;
+}
+
+h2 {
+    color: hsl(102deg 46% 32%);
+    border-bottom: 1px solid hsl(180deg 3% 94%);
+    padding: 20px;
+}
+
+p {
+    color: hsl(0deg 0% 59%);
+    border-bottom: 1px solid hsl(180deg 3% 94%);
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: hsl(102deg 46% 32%);
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+}
+
+/* _______________________________________________________________ */
+
+.col-2 h2 {
+    color: hsl(38deg 100% 64%);
+}
+
+.col-2 h1 {
+    color: hsl(38deg 100% 64%);
+}
+
+.col-2 button {
+    background-color: hsl(38deg 100% 64%);
+}
+
+/* _______________________________________________________________ */
+.col-3 h2 {
+    color: hsl(354deg 73% 56%);
+}
+
+.col-3 h1 {
+    color: hsl(354deg 73% 56%);
+}
+
+.col-3 button {
+    background-color: hsl(354deg 73% 56%);
+}
+
+/* _______________________________________________________________ */
+.col-4 h2 {
+    color: hsl(234deg 49% 48%);
+}
+
+.col-4 h1 {
+    color: hsl(234deg 49% 48%);
+}
+
+.col-4 button {
+    background-color: hsl(234deg 49% 48%);
+}
+
+/* _______________________________________________________________ */
+/* tablet */
+@media(min-width:768px) {
+    .col {
+        width: calc(50% - 20px);
+        /* max-width: 300px; */
+        margin: 10px;
+        float: left;
+    }
+}
+
+/* laptop */
+@media(min-width:992px) {
+    .col {
+        width: calc(50% - 20px);
+        /* max-width: 300px; */
+        margin: 10px;
+        float: left;
+    }
+}
+
+/* deskptop */
+@media(min-width:1200px) {
+    .col {
+        width: calc(25% - 20px);
+        /* max-width: 300px; */
+        margin: 10px;
+    }
+}
