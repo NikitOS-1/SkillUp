@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    max-width: 405px;
+    height: 29px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.component-menu {
+    float: left;
+    width: 100px;
+    height: 25px;
+}
+
+.component-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-name {
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.menu-open {
+    display: none;
+    background: black;
+    text-align: center;
+    line-height: 25px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.component-about {
+    background: black;
+    text-align: center;
+    line-height: 25px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.menu-name:hover {
+    background: rgb(70, 70, 70);
+    width: 105px;
+}
+
+.menu-open:hover {
+    background: rgb(70, 70, 70);
+    width: 105px;
+}
+
+.component-about:hover {
+    background: rgb(70, 70, 70);
+}
+
+.menu1-1 {
+    position: relative;
+    top: -27px;
+    left: 102px;
+    display: none;
+}
+
+.menu2-1 {
+    position: relative;
+    top: -27px;
+    left: 102px;
+    display: none;
+}
+
+.menu3-1 {
+    position: relative;
+    top: -27px;
+    left: 102px;
+    display: none;
+}
+
+.menu4-1 {
+    position: relative;
+    top: -27px;
+    left: 102px;
+    display: none;
+}
+
+
+
+.component-menu:hover .menu-open {
+    display: block;
+}
+
+.menu1:hover .menu1-1 {
+    display: block;
+}
+
+.menu2:hover .menu2-1 {
+    display: block;
+}
+
+.menu3:hover .menu3-1 {
+    display: block;
+}
+
+.menu4:hover .menu4-1 {
+    display: block;
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-auth {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(104, 99, 99);
+    position: fixed;
+    top: 80px;
+    /* 1 viriant */
+    /* left: 50%;
+    margin-left: -100px; */
+    /* 2 variant */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 10;
+}
+
+.btn-close {
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}

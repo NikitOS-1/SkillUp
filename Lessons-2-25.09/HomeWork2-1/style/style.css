@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    background: rgba(255, 204, 8, 1);
+}
+
+#form-fruit {
+    display: grid;
+    align-content: center;
+}
+#col-one {
+    vertical-align: text-top;
+    padding-top: 0px;
+}
+
+article {
+    background: rgba(254, 255, 151, 1);
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.col {
+    text-align: right;
+    width: 250px;
+    padding: 10px;
+}
+
+.row {
+    text-align: left;
+    width: 450px;
+    padding: 2px;
+}

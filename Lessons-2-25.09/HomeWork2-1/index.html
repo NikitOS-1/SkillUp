@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 2-1</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The World of Fruit</h1>
+    </header>
+    <article>
+        <form id="form-fruit">
+            <table>
+                <div id="enter-form">
+                    <tr>
+                        <th colspan="2" class="row">
+                            <h2>Fruit Survey</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="col">
+                            <label for="Name">Name</label>
+                        </td>
+                        <td class="row">
+                            <input type="text" name="Name" id="Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col">
+                            <label for="Address">Address</label>
+                        </td>
+                        <td class="row">
+                            <input type="text" name="Address" id="Address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col">
+                            <label for="Email">Email</label>
+                        </td>
+                        <td class="row">
+                            <input type="email" name="Email" id="Email">
+                        </td>
+                    </tr>
+                </div>
+                <div id="how-many-eat-day">
+                    <tr>
+                        <td rowspan="4" class="col" id="col-one">
+                            <p>How many pieces of fruit do you eat per day ?</p>
+                        </td>
+                        <td class="row">
+                            <input type="radio" name="many" id="zero" value="0">
+                            <label for="zero">0</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="row">
+                            <input type="radio" name="many" id="one" value="1">
+                            <label for="one">1</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="row">
+                            <input type="radio" name="many" id="two" value="2">
+                            <label for="two">2</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="row">
+                            <input type="radio" name="many" id="more-two" value="more-two">
+                            <label for="more-two">More than 2</label>
+                        </td>
+                    </tr>
+                    <tr>
+                </div>
+                <div id="favourite-fruit">
+                    <td class="col">
+                        <p>My favourite fruit</p>
+                    </td>
+                    <td class="row">
+                        <select name="favourite-fruit" id="favourite-fruit">
+                            <option>Apple</option>
+                            <option>Banana</option>
+                            <option>Plum</option>
+                            <option>Pomegranate</option>
+                        </select>
+                    </td>
+                    </tr>
+                </div>
+                <div id="like-brochure">
+                    <tr>
+                        <td class="col">
+                            <p>Would you like a brochure?</p>
+                        </td>
+                        <td class="row">
+                            <input type="checkbox">
+                        </td>
+                    </tr>
+                </div>
+                <div id="button">
+                    <tr>
+                        <td>
+                        </td>
+                        <td class="row">
+                            <input type="button" value="Submit" class="submit">
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </form>
+    </article>
+</body>
+
+</html>

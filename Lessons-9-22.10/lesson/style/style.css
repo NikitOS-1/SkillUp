@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    width: 100%;
+    padding: 50px;
+    color: white;
+}
+
+.col-1 {
+    background-color: rgb(250, 114, 114);
+}
+
+.col-2 {
+    background-color: rgb(199, 239, 89);
+}
+
+.col-3 {
+    background-color: rgb(89, 234, 191);
+}
+
+.col-4 {
+    background-color: rgb(112, 144, 239);
+}
+
+/* tablet */
+@media(min-width:768px) {
+    .col {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* laptop */
+@media(min-width:992px) {
+    .col {
+        width: 25%;
+    }
+}
+
+/* deskptop */
+@media(min-width:1200px) {}

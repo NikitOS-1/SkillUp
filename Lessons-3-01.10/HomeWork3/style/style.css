@@ -1,0 +1,29 @@
+.menu {
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu li {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.menu a {
+    display: block;
+    height: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}

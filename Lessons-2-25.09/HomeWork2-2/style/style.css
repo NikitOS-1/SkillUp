@@ -1,0 +1,22 @@
+#p-seven {
+    border: 3px blue solid;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.p-tfs {
+    background: black;
+    color: white;
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p-other {
+    font-size: 25px;
+    border-right: 3px red dashed;
+}
+
+span {
+    color: red;
+}

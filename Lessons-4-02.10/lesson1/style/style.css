@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+.name-color {
+    display: block;
+}
+
+.p-name {
+    display: block;
+    float: left;
+}
+
+.Red {
+    float: left;
+    color: white;
+    background: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Orange {
+    float: left;
+    color: white;
+    background: Orange;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Green {
+    float: left;
+    color: white;
+    background: Green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Pink {
+    float: left;
+    color: white;
+    background: Pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Yellow {
+    float: left;
+    color: white;
+    background: Yellow;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Blue {
+    float: left;
+    color: white;
+    background: Blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.Black {
+    float: left;
+    color: white;
+    background: Black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 15px;
+}
+
+.text {
+    padding: 15px;
+    background: pink;
+    color: white;
+}

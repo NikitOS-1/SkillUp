@@ -1,0 +1,64 @@
+.text-center {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    background: red;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+/* 1 */
+/* .row {
+    overflow: hidden;
+} */
+
+/* 2 */
+/* .clear {
+    clear: both;
+} */
+
+/* 3 */
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text {
+    background: pink;
+    color: white;
+    padding: 15px;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.pink {
+    background: pink;
+}
+
+.black {
+    background: black;
+}
