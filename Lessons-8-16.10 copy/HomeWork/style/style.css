@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../img/grid.png");
+    width: 1920px;
+}
+
+.nav-container {
+    display: flex;
+    max-width: 1920px;
+    height: 100px;
+    background-color: #cadbed;
+}
