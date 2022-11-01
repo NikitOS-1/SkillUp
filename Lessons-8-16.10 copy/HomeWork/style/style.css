@@ -72,26 +72,26 @@ body {
     width: 200px;
     height: 40px;
     border: 1px solid #2c71b8;
-    background-color: #cadbed;
+    background-color: var(--header-bg-color);
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .search ::placeholder {
-    font-family: 'Roboto', sans-serif;
     font-size: 21px;
-    color: #2c71b8;
+    color: var(--header-font-color);
     padding-left: 20px;
-
-
 }
 
-.img-search {
+/* .img-search {
     width: 30px;
     height: 30px;
     background-color: #2c71b8;
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 /* ------------------------------------------------------------------- */
 .btn-basket {}
