@@ -1,15 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('./color.css');
+
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-image: url("../img/grid.png");
-    width: 1920px;
+    max-width: 1920px;
 }
 
 .nav-container {
     display: flex;
-    max-width: 1920px;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100px;
+    background-color: var(--header-bg-color);
+    font-size: 21px;
+    color: var(--header-font-color);
+}
+
+/* ------------------------------------------------------------------- */
+.logo-head {}
+
+/* ------------------------------------------------------------------- */
+.btn-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-left: 1px solid #2c71b8;
+}
+
+/* ------------------------------------------------------------------- */
+.btn-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-left: 1px solid #2c71b8;
+}
+
+/* ------------------------------------------------------------------- */
+.btn-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-left: 1px solid #2c71b8;
+}
+
+/* ------------------------------------------------------------------- */
+
+.btn-shipping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-left: 1px solid #2c71b8;
+}
+
+/* ------------------------------------------------------------------- */
+.search input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #2c71b8;
     background-color: #cadbed;
 }
+
+.search ::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #2c71b8;
+    padding-left: 20px;
+
+
+}
+
+.img-search {
+    width: 30px;
+    height: 30px;
+    background-color: #2c71b8;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ------------------------------------------------------------------- */
+.btn-basket {}
