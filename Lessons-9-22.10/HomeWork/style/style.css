@@ -1,0 +1,35 @@
+.container {
+    background-color: aqua;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
