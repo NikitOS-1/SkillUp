@@ -1,13 +1,11 @@
 :root {
     --header-bg-colour: rgba(202, 219, 237, 0.75);
     --header-font-colour: #2c71b8;
+    --header-font-family: 'Roboto', sans-serif;
 }
 
 /* ------------------------------------------------------------ */
-.body {
-    background-image: url(../img/grid.png);
-
-}
+.body {}
 
 .header {
     background-color: var(--header-bg-colour);
@@ -21,10 +19,14 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    font-family: var(--header-font-family);
+    font-size: 21px;
+    color: var(--header-font-colour);
 }
 
 .row {
     display: flex;
+    align-items: center;
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -42,4 +44,36 @@
 .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
+}
+.logo{
+    margin-top: 7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    border-left: 2px solid var(--header-font-colour);
+}
+
+.menu li:last-child {
+    border-right: 2px solid var(--header-font-colour);
+}
+
+.menu li:hover {
+    background-color: var(--header-font-colour);
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    /* color: var(--header-font-colour); */
 }
