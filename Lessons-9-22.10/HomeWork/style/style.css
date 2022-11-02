@@ -1,16 +1,26 @@
+:root {
+    --header-bg-colour: rgba(202, 219, 237, 0.75);
+    --header-font-colour: #2c71b8;
+}
+
+/* ------------------------------------------------------------ */
+.body {
+    background-image: url(../img/grid.png);
+
+}
+
+.header {
+    background-color: var(--header-bg-colour);
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
 .container {
-    background-color: aqua;
     width: 1200px;
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-}
-
-.header {
-    background-color: aqua;
-    display: flex;
-    height: 100px;
-    align-items: center;
 }
 
 .row {
