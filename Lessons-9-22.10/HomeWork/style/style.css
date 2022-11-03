@@ -31,6 +31,7 @@ body {
     font-size: 21px;
 }
 
+/* ------------------------grid------------------------- */
 .row {
     display: flex;
     align-items: center;
@@ -58,10 +59,12 @@ body {
     max-width: 75%;
 }
 
+/* ------------------------logo------------------------- */
 .logo {
     margin-top: 7px;
 }
 
+/* ------------------------menu------------------------- */
 .menu {
     display: flex;
 }
@@ -84,12 +87,19 @@ body {
     text-align: center;
     line-height: 50px;
 }
+.menu-open{
+    
+}
 
 .menu a:hover {
     color: white;
     background-color: var(--header-font-colour);
 }
 
+/* -----------------Component menu--------------------- */
+
+
+/* ------------------------search and basket------------------------- */
 .search-basket {
     display: flex;
     align-items: center;
@@ -110,10 +120,6 @@ body {
     outline: none;
 }
 
-.search:hover {
-    border: 2px solid var(--header-font-colour);
-}
-
 .search button {
     margin-right: -25px;
     cursor: pointer;
@@ -132,6 +138,10 @@ body {
 
 .search input:read-write {
     color: var(--header-font-colour);
+}
+
+.search:hover {
+    border: 2px solid var(--header-font-colour);
 }
 
 .btn-basket {
