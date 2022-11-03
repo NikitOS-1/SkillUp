@@ -87,9 +87,6 @@ body {
     text-align: center;
     line-height: 50px;
 }
-.menu-open{
-    
-}
 
 .menu a:hover {
     color: white;
@@ -97,8 +94,17 @@ body {
 }
 
 /* -----------------Component menu--------------------- */
-
-
+.menu:hover .open-menu{
+    display: block;
+}
+.open-menu {
+    display: none;
+    width: 285px;
+    height: 280px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 76px;
+}
 /* ------------------------search and basket------------------------- */
 .search-basket {
     display: flex;
