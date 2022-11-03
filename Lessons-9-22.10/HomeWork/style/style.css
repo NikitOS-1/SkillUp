@@ -34,10 +34,10 @@ body {
     max-width: 1200px;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
 .col-3 {
     flex: 0 0 25%;
@@ -64,11 +64,11 @@ body {
 
 .menu li {
     width: 25%;
-    border-left: 2px solid var(--header-font-colour);
+    border-left: 1px solid var(--header-font-colour);
 }
 
 .menu li:last-child {
-    border-right: 2px solid var(--header-font-colour);
+    border-right: 1px solid var(--header-font-colour);
 }
 
 .menu a {
@@ -81,6 +81,79 @@ body {
     line-height: 50px;
 }
 
-.search {
+.menu a:hover {
+    color: white;
+    background-color: var(--header-font-colour);
+}
+
+.search-basket {
     display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-left: 30px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--header-font-colour);
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.search button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: var(--header-font-colour);
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search input::placeholder {
+    color: var(--header-font-colour);
+    padding-left: 20px;
+}
+
+.search input:read-write {
+    color: var(--header-font-colour);
+    padding-left: 20px;
+}
+
+.btn-basket {
+    display: flex;
+    justify-content: center;
+}
+
+.basket {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    background-image: var(--header-search-basket);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-left: 20px;
+}
+
+.counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--header-font-colour);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
+    border: none;
+    margin: -10px;
 }
