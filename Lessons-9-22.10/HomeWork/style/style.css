@@ -18,6 +18,7 @@ body {
     font-family: var(--Roboto-font-family);
 }
 
+/* ------------------------header------------------------- */
 .header {
     background-color: var(--header-bg-colour);
     display: flex;
@@ -57,6 +58,11 @@ body {
 .col-9 {
     flex: 0 0 75%;
     max-width: 75%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 /* ------------------------logo------------------------- */
