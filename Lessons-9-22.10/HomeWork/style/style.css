@@ -64,7 +64,7 @@ body {
     margin-top: 7px;
 }
 
-/* ------------------------menu------------------------- */
+/* ------------------------all-menu------------------------- */
 .menu {
     display: flex;
 }
@@ -82,29 +82,76 @@ body {
     display: block;
     height: 50px;
     text-decoration: none;
-    font-size: 21px;
-    color: var(--header-font-colour);
     text-align: center;
     line-height: 50px;
+    color: var(--header-font-colour);
 }
 
-.menu a:hover {
+/* ------------------------btn-home------------------------- */
+.btn-home:hover .item-menu-name {
+    background-color: #2c71b8;
     color: white;
-    background-color: var(--header-font-colour);
 }
 
-/* -----------------Component menu--------------------- */
-.menu:hover .open-menu{
+.btn-home:hover .open-menu {
     display: block;
 }
+
+/* ------------------------btn-products------------------------- */
+.btn-products:hover .item-menu-name {
+    background-color: #2c71b8;
+    color: white;
+}
+
+.btn-products:hover .open-menu {
+    display: block;
+}
+
+/* ------------------------btn-payment------------------------- */
+.btn-payment:hover .item-menu-name {
+    background-color: #2c71b8;
+    color: white;
+}
+
+.btn-payment:hover .open-menu {
+    display: block;
+}
+
+/* ------------------------btn-shipping------------------------- */
+.btn-shipping:hover .item-menu-name {
+    background-color: #2c71b8;
+    color: white;
+}
+
+.btn-shipping:hover .open-menu {
+    display: block;
+}
+
+/* ------------------------drop-menu------------------------- */
 .open-menu {
     display: none;
     width: 285px;
-    height: 280px;
-    background-color: aliceblue;
+    height: max-content;
+    background-color: var(--header-font-colour);
     position: absolute;
-    top: 76px;
+    top: 75px;
 }
+
+.open-menu p {
+    line-height: 10px;
+    padding: 15px 10px 10px 30px;
+    color: white;
+}
+
+.item-menu {
+    height: 40px;
+}
+
+.item-menu:hover {
+    color: var(--header-font-colour);
+    background-color: white;
+}
+
 /* ------------------------search and basket------------------------- */
 .search-basket {
     display: flex;
