@@ -18,7 +18,7 @@ body {
     font-family: var(--Roboto-font-family);
 }
 
-/* ------------------------header------------------------- */
+/* ------------------------general properties (header/main/footer)------------------------- */
 .header {
     background-color: var(--header-bg-colour);
     display: flex;
@@ -26,13 +26,23 @@ body {
     height: 100px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------grid------------------------- */
 .container {
     padding: 0 15px;
     margin: 0 auto;
     font-size: 21px;
 }
 
-/* ------------------------grid------------------------- */
 .row {
     display: flex;
     align-items: center;
@@ -230,4 +240,21 @@ body {
     font-size: small;
     border: none;
     margin: -10px;
+}
+
+/* ------------------------main------------------------- */
+
+.sidebar {
+    background-color: blue;
+    height: 100px;
+}
+
+.content {
+    background-color: aqua;
+    height: 100px;
+}
+
+.view {
+    background-color: bisque;
+    height: 100px;
 }
