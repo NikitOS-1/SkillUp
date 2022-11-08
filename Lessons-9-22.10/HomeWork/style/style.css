@@ -74,12 +74,12 @@ body {
     max-width: 100%;
 }
 
-/* ------------------------logo------------------------- */
+/* -----------------------header-logo------------------------- */
 .logo {
     margin-top: 7px;
 }
 
-/* ------------------------all-menu------------------------- */
+/* -----------------------header-all-menu------------------------- */
 .menu {
     display: flex;
 }
@@ -102,7 +102,7 @@ body {
     color: var(--header-font-colour);
 }
 
-/* ------------------------btn-home------------------------- */
+/* -----------------------header-btn-home------------------------- */
 .btn-home:hover .item-menu-name {
     background-color: #2c71b8;
     color: white;
@@ -112,7 +112,7 @@ body {
     display: block;
 }
 
-/* ------------------------btn-products------------------------- */
+/* -----------------------header-btn-products------------------------- */
 .btn-products:hover .item-menu-name {
     background-color: #2c71b8;
     color: white;
@@ -122,7 +122,7 @@ body {
     display: block;
 }
 
-/* ------------------------btn-payment------------------------- */
+/* -----------------------header-btn-payment------------------------- */
 .btn-payment:hover .item-menu-name {
     background-color: #2c71b8;
     color: white;
@@ -132,7 +132,7 @@ body {
     display: block;
 }
 
-/* ------------------------btn-shipping------------------------- */
+/* -----------------------header-btn-shipping------------------------- */
 .btn-shipping:hover .item-menu-name {
     background-color: #2c71b8;
     color: white;
@@ -142,7 +142,7 @@ body {
     display: block;
 }
 
-/* ------------------------drop-menu------------------------- */
+/* -----------------------header-drop-menu------------------------- */
 .open-menu {
     display: none;
     width: 285px;
@@ -167,7 +167,7 @@ body {
     background-color: white;
 }
 
-/* ------------------------search and basket------------------------- */
+/* -----------------------header-search and basket------------------------- */
 .search-basket {
     display: flex;
     align-items: center;
@@ -243,22 +243,105 @@ body {
 }
 
 /* ------------------------main------------------------- */
-/* ------------------------main-view-box------------------------ */
+/* ------------------------main-view------------------------- */
 .view-box {
     background-color: var(--header-font-colour);
-    height: 400px;
+    height: 50px;
     border: 1px solid white;
 }
 
-/* ------------------------main-sidebar-box------------------------ */
+/* ------------------------main-sidebar------------------------- */
 .sidebar-box {
     background-color: var(--header-font-colour);
     height: 845px;
     border: 1px solid white;
 }
+
 /* ------------------------main-content------------------------ */
+/* ------------------------main-content-header----------------------- */
 .content {
     display: flex;
-    background-color: aqua;
     height: max-content;
+    flex-wrap: wrap;
 }
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-size: 14px;
+}
+
+.main-nav a {
+    margin-top: 30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.main-nav a:last-child {
+    text-decoration: underline;
+}
+
+.main-name-href-sorting {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-name-href-sorting h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px bold;
+}
+
+.btn-sort {
+    display: block;
+    font-size: 21px;
+    border: 1px solid white;
+}
+
+.btn-sort button {
+    width: 270px;
+    height: 40px;
+    display: block;
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.btn-sort button:hover {
+    background-color: white;
+    color: var(--header-font-colour);
+}
+
+.drop-menu-sort:hover .open-menu-sort {
+    display: block;
+}
+
+.open-menu-sort {
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.open-menu-sort li {
+    width: 270px;
+    height: 40px;
+    display: block;
+    color: white;
+    background-color: transparent;
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 21px;
+}
+
+.open-menu-sort li:hover {
+    background-color: white;
+    color: var(--header-font-colour);
+}
+
+/* ------------------------main-content-general----------------------- */
