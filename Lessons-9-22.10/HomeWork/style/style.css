@@ -345,3 +345,19 @@ body {
 }
 
 /* ------------------------main-content-general----------------------- */
+
+.component-item {
+    display: flex;
+    flex: 0 0 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex: 0 0 31%;
+    border: 1px solid white;
+}
