@@ -277,6 +277,7 @@ body {
     margin-top: 30px;
     padding-right: 20px;
     text-decoration: none;
+    color: #96b8dc;
 }
 
 .main-nav a:last-child {
@@ -346,7 +347,7 @@ body {
 
 /* ------------------------main-content-general----------------------- */
 
-.component-item {
+.components-item {
     display: flex;
     flex: 0 0 100%;
     width: 100%;
@@ -360,4 +361,104 @@ body {
     display: flex;
     flex: 0 0 31%;
     border: 1px solid white;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(43, 113, 183, 0.75);
+    color: white;
+}
+
+.item-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    height: 180px;
+}
+
+.item-img-set {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.item-img-set .zoom {
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-image: url(../img/item2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-img-set .like {
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-image: url(../img/like.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-description {
+    padding: 7px;
+}
+
+.item-description h2 {
+    padding: 7px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-description p {
+    padding: 7px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.item-description span {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.item-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-price h1 {
+    display: flex;
+    font-weight: bold;
+}
+
+.item-price span {
+    font-size: medium;
+    padding: 3px;
+}
+
+.item-price button {
+    width: 210px;
+    height: 50px;
+    margin: 7px;
+    font-weight: bold;
+    color: white;
+}
+
+.item-price .btn-more-details {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.item-price .btn-add-to-card {
+    background-color: rgba(86, 141, 198, 0.75);
+    border: none;
+    margin-bottom: 30px;
+    background-image: url(../img/basket-white.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 175px;
 }
