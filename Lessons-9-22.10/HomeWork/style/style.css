@@ -144,6 +144,7 @@ body {
 
 /* -----------------------header-drop-menu------------------------- */
 .open-menu {
+    z-index: 200;
     display: none;
     width: 285px;
     height: max-content;
