@@ -310,13 +310,17 @@ body {
     display: block;
     color: white;
     border: none;
-    background-color: transparent;
+    background-color: var(--header-font-colour);
     padding-left: 20px;
 }
 
 .btn-sort button:hover {
     background-color: white;
     color: var(--header-font-colour);
+}
+
+.drop-menu-sort {
+    z-index: 100;
 }
 
 .drop-menu-sort:hover .open-menu-sort {
@@ -334,7 +338,7 @@ body {
     height: 40px;
     display: block;
     color: white;
-    background-color: transparent;
+    background-color: var(--header-font-colour);
     line-height: 42px;
     padding-left: 20px;
     font-size: 21px;
