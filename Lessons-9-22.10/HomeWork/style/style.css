@@ -254,7 +254,7 @@ body {
 /* ------------------------main-sidebar------------------------- */
 .sidebar-box {
     background-color: var(--header-font-colour);
-    height: 845px;
+    height: 825px;
     border: 1px solid white;
 }
 
@@ -467,3 +467,62 @@ body {
     background-position: right;
     background-position-x: 175px;
 }
+
+/* ------------------------main-sidebar----------------------- */
+.container-sidebar {
+    margin: 30px;
+    color: white;
+}
+
+.container-sidebar h3 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.container-sidebar p {
+    margin: 30px;
+}
+
+.container-sidebar button {
+    color: white;
+    border: 1px solid white;
+    background-color: var(--header-font-colour);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------------------checkbox-label----------------------------- */
+input[type="checkbox"] {
+    display: none;
+}
+
+label::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+}
+
+input[type="checkbox"]:checked+label::before {
+    background-color: white;
+}
+
+.container-sidebar li {
+    margin-bottom: 20px;
+}
+
+.check-color {
+    margin-top: 60px;
+}
+
+.check-ram {
+    margin-top: 60px;
+}
+
+/* ----------------------------footer--------------------------- */
+
