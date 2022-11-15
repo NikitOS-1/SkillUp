@@ -1,0 +1,20 @@
+.header {
+    background-color: $text-purple;
+    padding: $padding-s;
+    @include flexCenter();
+    h1 {
+        color: $text-red;
+
+        span {
+            color: $text-red;
+
+            &:hover {
+                color: $text-green;
+            }
+        }
+    }
+
+    p {
+        color: $text-green;
+    }
+}
