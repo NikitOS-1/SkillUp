@@ -1,12 +1,15 @@
 .header {
     background-color: $text-purple;
     padding: $padding-s;
-    @include flexCenter();
+    @include flex(center, center);
+
     h1 {
         color: $text-red;
 
         span {
             color: $text-red;
+
+            @include flex(space-beetwen, flex-end);
 
             &:hover {
                 color: $text-green;

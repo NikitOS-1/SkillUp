@@ -10,6 +10,9 @@
 }
 .header h1 span {
   color: red;
+  display: flex;
+  justify-content: space-beetwen;
+  align-items: flex-end;
 }
 .header h1 span:hover {
   color: rgb(220, 235, 11);
