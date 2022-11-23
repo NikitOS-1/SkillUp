@@ -1,10 +1,13 @@
 @import './fonts/fonts';
 
-header {
-    font-family: $font-title;
+h1 {
+    font-family: "Galien";
     background-color: aqua;
-    height: 100px;
-    width: 100px;
+}
+
+p {
+    font-family: 'Gilroy';
+    background-color: rgb(219, 223, 113);
 }
 
 // .container {
