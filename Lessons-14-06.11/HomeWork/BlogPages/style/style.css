@@ -167,6 +167,9 @@ body .aside {
   width: 100%;
   height: 250px;
   background-image: url("../img/MaskGroup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,32 +190,172 @@ body .aside p {
   font-size: 20px;
 }
 body .main .container {
-  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 940px;
   margin: 0 auto;
   padding: 0 213px;
 }
 body .main .container .search {
+  display: flex;
   margin-top: 50px;
-  width: 940px;
-  height: 55px;
-}
-body .main .container .search input {
   width: 100%;
-  height: 100%;
+  height: 55px;
   border: none;
   border-radius: 10px;
   background-color: #F4F4F4;
+}
+body .main .container .search .search-icon {
   background-image: url("../img/icon-search.png");
   background-repeat: no-repeat;
+  width: 8%;
+  height: 100%;
   background-position-y: center;
   background-position-x: 25px;
 }
+body .main .container .search input {
+  width: 92%;
+  height: 100%;
+  border: none;
+  background-color: #F4F4F4;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px;
+}
 body .main .container .search input::-moz-placeholder {
-  padding-left: 65px;
+  padding-left: 10px;
 }
 body .main .container .search input:-ms-input-placeholder {
-  padding-left: 65px;
+  padding-left: 10px;
 }
 body .main .container .search input::placeholder {
-  padding-left: 65px;
+  padding-left: 10px;
+}
+body .main .container .main-content h3 {
+  margin-top: 55px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Galien";
+  line-height: 24.5px;
+}
+body .main .container .main-content .row-1 {
+  display: flex;
+}
+body .main .container .main-content .row-1 .item-1 {
+  font-family: "Gilroy";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .main .container .main-content .row-1 .item-1 .view {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+}
+body .main .container .main-content .row-1 .item-1 .view p {
+  width: 122px;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .main .container .main-content .row-1 .item-1 .view span {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+body .main .container .main-content .row-1 .item-1 .view .follow {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
+body .main .container .main-content .row-1 .item-1 .view .send {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 40px;
+}
+body .main .container .main-content .row-1 .item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .container .main-content .row-2 {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .container .main-content .row-2 .item {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 33.3333333333%;
+}
+body .main .container .main-content .row-2 .item:first-child {
+  margin-right: 20px;
+}
+body .main .container .main-content .row-2 .item:last-child {
+  margin-left: 20px;
+}
+body .main .container .main-content .row-2 .item h1 {
+  font-family: "Galien";
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .main .container .main-content .row-2 .item p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+body .main .container .main-content .row-2 .item .view {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+}
+body .main .container .main-content .row-2 .item .view p {
+  width: 122px;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .main .container .main-content .row-2 .item .view span {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+body .main .container .main-content .row-2 .item .view .follow {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
+body .main .container .main-content .row-2 .item .view .send {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 40px;
 }/*# sourceMappingURL=style.css.map */
