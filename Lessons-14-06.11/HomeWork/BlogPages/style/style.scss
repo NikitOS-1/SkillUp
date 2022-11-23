@@ -35,19 +35,24 @@ body {
         justify-content: center;
 
         h1 {
-            font-size: 44px;
-            color: white;
+            padding-top: 10px;
             font-family: 'Gilroy';
+            font-size: 44px;
+            line-height: 74px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
         }
 
         p {
+            width: 55%;
+            padding-bottom: 50px;
             font-family: 'Gilroy';
-            max-width: 780px;
-            height: 60px;
-            text-align: center;
-            color: rgba(255, 255, 255, 0.4);
-            line-height: 30px;
             font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: rgba(255, 255, 255, 0.4);
         }
     }
 
@@ -90,6 +95,11 @@ body {
 
                     &::placeholder {
                         padding-left: 10px;
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #1F3F68;
+                        opacity: 0.6;
                     }
                 }
             }
@@ -99,19 +109,38 @@ body {
                 h3 {
                     margin-top: 55px;
                     margin-bottom: 30px;
+                    font-family: 'Gilroy';
                     font-size: 20px;
-                    font-family: 'Galien';
-                    line-height: 24.5px;
+                    line-height: 25px;
+                    letter-spacing: 0.04em;
+                    color: #356EAD;
+                    opacity: 0.8;
                 }
 
                 .row-1 {
                     display: flex;
 
                     .item-1 {
-                        font-family: 'Gilroy';
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+
+                        h1 {
+                            font-family: 'Galien';
+                            font-size: 48px;
+                            line-height: 58px;
+                            letter-spacing: 0.04em;
+                            color: #1F3F68;
+                        }
+
+                        p {
+                            font-family: 'Gilroy';
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 0.04em;
+                            color: #000000;
+                            opacity: 0.6;
+                        }
 
                         .view {
                             padding-top: 16px;
@@ -247,6 +276,11 @@ body {
                     }
                 }
 
+                .seeAll {
+                    float: right;
+                }
+
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
             }
         }
     }
