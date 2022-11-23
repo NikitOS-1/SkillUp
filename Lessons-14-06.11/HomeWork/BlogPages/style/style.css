@@ -143,12 +143,76 @@
   font-weight: 900;
   font-style: normal;
 }
-h1 {
-  font-family: "Galien";
-  background-color: aqua;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-p {
+body header {
+  width: 1366px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 50px;
+}
+body .aside {
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/MaskGroup.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .aside h1 {
+  font-size: 44px;
+  color: white;
   font-family: "Gilroy";
-  background-color: rgb(219, 223, 113);
+}
+body .aside p {
+  font-family: "Gilroy";
+  max-width: 780px;
+  height: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 30px;
+  font-size: 20px;
+}
+body .main .container {
+  padding: 0 0;
+  margin: 0 auto;
+  padding: 0 213px;
+}
+body .main .container .search {
+  margin-top: 50px;
+  width: 940px;
+  height: 55px;
+}
+body .main .container .search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #F4F4F4;
+  background-image: url("../img/icon-search.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 25px;
+}
+body .main .container .search input::-moz-placeholder {
+  padding-left: 65px;
+}
+body .main .container .search input:-ms-input-placeholder {
+  padding-left: 65px;
+}
+body .main .container .search input::placeholder {
+  padding-left: 65px;
 }/*# sourceMappingURL=style.css.map */
