@@ -23,7 +23,7 @@ body {
     }
 
     .aside {
-        width: 100%;
+        width: 1366px;
         height: 250px;
         background-image: url("../img/MaskGroup.png");
         background-repeat: no-repeat;
@@ -418,7 +418,186 @@ body {
                     }
                 }
             }
-            
+
+        }
+    }
+
+    .footer {
+        margin-top: 100px;
+
+        .line {
+            display: flex;
+            align-items: flex-start;
+            padding-left: 0px;
+            margin-left: 0px;
+            width: 1073px;
+            opacity: 0.4;
+            border: 1px solid #FFFFFF;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 940px;
+            height: 845px;
+            margin: 0 auto;
+            padding: 0 213px;
+            background: #316099;
+            background-size: 90%;
+            border-radius: 0px 200px 0px 0px;
+
+            .wrap-1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 90px;
+                width: 860px;
+
+                h2 {
+                    width: 317px;
+                    height: 92px;
+                    font-family: 'Gilroy';
+                    font-size: 36px;
+                    line-height: 46px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    margin-top: 32px;
+                    width: 460px;
+                    height: 80px;
+                    font-family: 'Gilroy';
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                    opacity: 0.6;
+                }
+
+                button {
+                    width: 220px;
+                    height: 56px;
+                    left: 213px;
+                    border: none;
+                    background: #5A98D0;
+                    border-radius: 10px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .line {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                display: flex;
+                align-items: flex-start;
+                padding-left: 0px;
+                margin-left: 0px;
+                width: 1073px;
+                opacity: 0.4;
+                border: 1px solid #FFFFFF;
+            }
+
+            .wrap-2 {
+                display: flex;
+
+                .afrianska {
+                    .title-footer {
+                        display: flex;
+                        margin-bottom: 42px;
+                    }
+
+                    h2 {
+                        font-family: 'Gilroy';
+                        font-size: 28px;
+                        line-height: 46px;
+                        letter-spacing: 0.02em;
+                        color: #FFFFFF;
+                    }
+
+                    li {
+                        display: flex;
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 36px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        width: 299px;
+
+                        .abc {
+                            margin-right: 16px;
+                            font-weight: 900;
+                        }
+
+                        .text {
+                            opacity: 0.6;
+                        }
+                    }
+
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin-right: 16px;
+                    }
+
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .about-us {
+                    margin: 0 100px;
+
+                    h2 {
+                        font-family: 'Gilroy';
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        margin-bottom: 55px;
+                    }
+
+                    li {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 36px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        opacity: 0.6;
+                    }
+                }
+
+                .follow-us {
+                    h2 {
+                        font-family: 'Gilroy';
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        margin-bottom: 55px;
+                    }
+
+                    li {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 36px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        opacity: 0.6;
+                    }
+                }
+            }
+
+            .signature {
+                margin-top: 50px;
+
+                font-family: 'Gilroy';
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+                opacity: 0.4;
+            }
         }
     }
 }
