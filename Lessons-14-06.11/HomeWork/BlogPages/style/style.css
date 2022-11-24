@@ -399,6 +399,118 @@ body .main .container .main-content .row-2 .item .view .send {
   cursor: pointer;
   margin-left: 40px;
 }
-body .main .container .main-content .seeAll {
+body .main .container .main-content .seeAll-title {
   float: right;
+}
+body .main .container .other-content h3 {
+  margin-top: 55px;
+  margin-bottom: 30px;
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+body .main .container .other-content .row-3 {
+  display: flex;
+  flex-direction: column;
+}
+body .main .container .other-content .row-3 .item {
+  display: flex;
+  padding-bottom: 30px;
+}
+body .main .container .other-content .row-3 .item .wrap-2 {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .main .container .other-content .row-3 .item .wrap-2 h2 {
+  font-family: "Galien";
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .main .container .other-content .row-3 .item .wrap-2 p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+body .main .container .other-content .row-3 .item .wrap-2 .view {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+}
+body .main .container .other-content .row-3 .item .wrap-2 .view p {
+  width: 122px;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .main .container .other-content .row-3 .item .wrap-2 .view span {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+body .main .container .other-content .row-3 .item .wrap-2 .view .follow {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
+body .main .container .other-content .row-3 .item .wrap-2 .view .send {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Vector-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 40px;
+}
+body .main .container .other-content .btn-next-back {
+  display: flex;
+  justify-content: space-between;
+}
+body .main .container .other-content .btn-next-back .btn-new-post {
+  display: flex;
+  align-items: center;
+}
+body .main .container .other-content .btn-next-back .btn-new-post img {
+  width: 12px;
+  height: 12px;
+}
+body .main .container .other-content .btn-next-back .btn-new-post p {
+  padding-left: 20px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+}
+body .main .container .other-content .btn-next-back .btn-old-post {
+  display: flex;
+  align-items: center;
+}
+body .main .container .other-content .btn-next-back .btn-old-post img {
+  width: 12px;
+  height: 12px;
+}
+body .main .container .other-content .btn-next-back .btn-old-post p {
+  padding-right: 20px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
 }/*# sourceMappingURL=style.css.map */
