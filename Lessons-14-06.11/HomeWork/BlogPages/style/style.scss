@@ -276,12 +276,149 @@ body {
                     }
                 }
 
-                .seeAll {
+                .seeAll-title {
                     float: right;
                 }
 
                 border-bottom: 1px solid rgba(0, 0, 0, 0.2);
             }
+
+            .other-content {
+                h3 {
+                    margin-top: 55px;
+                    margin-bottom: 30px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    line-height: 25px;
+                    letter-spacing: 0.04em;
+                    color: #356EAD;
+                    opacity: 0.8;
+                }
+
+                .row-3 {
+                    display: flex;
+                    flex-direction: column;
+
+                    .item {
+                        display: flex;
+                        padding-bottom: 30px;
+
+                        .wrap-1 {}
+
+                        .wrap-2 {
+                            padding-left: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            h2 {
+                                font-family: 'Galien';
+                                font-size: 28px;
+                                line-height: 38px;
+                                letter-spacing: 0.04em;
+                                color: #1F3F68;
+                            }
+
+                            p {
+                                font-family: 'Gilroy';
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 0.04em;
+                                color: rgba(0, 0, 0, 0.6);
+                            }
+
+                            .view {
+                                padding-top: 16px;
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    width: 122px;
+                                    font-family: 'Gilroy';
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.04em;
+                                    color: #1F3F68;
+                                }
+
+                                span {
+                                    font-family: 'Gilroy';
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.04em;
+                                    color: rgba(0, 0, 0, 0.4);
+
+                                }
+
+                                .follow {
+                                    width: 20px;
+                                    height: 20px;
+                                    background-image: url("../img/Vector-1.png");
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    cursor: pointer;
+                                    margin-left: 100px;
+                                }
+
+                                .send {
+                                    width: 20px;
+                                    height: 20px;
+                                    background-image: url("../img/Vector-2.png");
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    cursor: pointer;
+                                    margin-left: 40px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .btn-next-back {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .btn-new-post {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 12px;
+                            height: 12px;
+                        }
+
+                        p {
+                            padding-left: 20px;
+                            font-family: 'Gilroy';
+                            font-size: 16px;
+                            line-height: 20px;
+                            letter-spacing: 0.04em;
+                            color: #356EAD;
+                        }
+                    }
+
+                    .btn-old-post {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 12px;
+                            height: 12px;
+                        }
+
+                        p {
+                            padding-right: 20px;
+                            font-family: 'Gilroy';
+                            font-size: 16px;
+                            line-height: 20px;
+                            letter-spacing: 0.04em;
+                            color: #356EAD;
+                        }
+                    }
+                }
+            }
+            
         }
     }
 }
