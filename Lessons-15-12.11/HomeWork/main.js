@@ -22,18 +22,20 @@ function rangeNumbers(a, b) {
 //     витрат. Результат вивести повідомленням (За минулий місяць Ви витратили … грн)
 
 function howMuchSpending() {
-  let howMuchCategory = 1; /*prompt("How many categories do you have ?");*/
-
+  let howMuchCategory = prompt("How many categories do you have ?");
+  let sumCoast = 0;
   for (let i = 0; i < howMuchCategory; i++) {
-    let howCategory = "avto"; /*prompt("Which category ?");*/
-    let sumCategory = "2000"; /*prompt("How much coats ?");*/
+    let howCategory = prompt("Which category ?");
+    let sumCategory = prompt("How much coats ? UAN");
     let person = new Category(howCategory, sumCategory);
-    console.log(person);
+    sumCoast += person["sum"];
   }
+
   function Category(name, sum) {
     this.name = name;
-    this.sum = sum;
+    this.sum = parseInt(sum);
   }
-  
+  alert(`"За минулий місяць Ви витратили ${sumCoast} грн"`);
 }
-howMuchSpending();
+
+// howMuchSpending();
