@@ -36,8 +36,28 @@
 // test.textContent = "jjjjjj";
 // test.innerHTML = "<a href=''>dsd</a>";
 
-let h1 = document.createElement("h1");
-h1.setAttribute("class", "red-text");
-h1.textContent = "helloo";
-// document.body.append(h1);
-document.body.prepend(h1);
+// let h1 = document.createElement("h1");
+// h1.setAttribute("class", "red-text");
+// h1.textContent = "helloo";
+// // document.body.append(h1);
+// document.body.prepend(h1);
+
+// h1.onclick = function () {
+//   alert("hello h1");
+// };
+
+// h1.addEventListener("click", function () {
+//   alert("hello word h1 ");
+// });
+
+let img = document.getElementById("img");
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+  let src = img.getAttribute("src");
+  if (src == "./1-logo.png") {
+    img.setAttribute("src", "./2-logo.png");
+  } else {
+    img.setAttribute("src", "./1-logo.png");
+  }
+});
