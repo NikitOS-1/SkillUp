@@ -33,3 +33,24 @@ tabWrap.addEventListener("click", function (e) {
     });
   }
 });
+
+
+// -------------------- try catch
+
+// let test = "test"
+// try{
+//   console.log(test)
+// } catch (error){
+//   console.log(error)
+// } finally {
+//   console.log("TEST")
+// }
+
+
+// let a = 10;
+// console.log(a)
+// console.log("first")
+
+
+// ------------------------ animation
+
