@@ -1,0 +1,25 @@
+.tab-table-wrap {
+    display: flex;
+}
+
+.tab-title-item {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tab-title-item:hover {
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
