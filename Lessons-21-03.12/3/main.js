@@ -1,5 +1,10 @@
 // ----------------fetch-rest-api
 
-fetch("https://jsonplaceholder.typicode.com/todos/1")
+fetch("https://jsonplaceholder.typicode.com/posts")
   .then((response) => response.json())
-  .then((data) => console.log(data));
+  .then((json) =>
+    json.map((item) => {
+      let title = item.title;
+      console.log(title);
+    })
+  );
