@@ -10,8 +10,16 @@
 //   );
 // http://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19
 
-fetch(
-  "http://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19"
-)
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+// fetch(
+//   "http://api.openweathermap.org/data/2.5/weather?q=KYIV&units=metric&APPID=5d066958a60d315387d9492393935c19"
+// )
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
+
+function declaration() => {
+  return 0;
+}
+
+let expression = function() {
+  return 0;
+}
