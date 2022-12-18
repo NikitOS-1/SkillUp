@@ -16,10 +16,13 @@
 //   .then((response) => response.json())
 //   .then((json) => console.log(json));
 
-function declaration() => {
-  return 0;
+function declaration() {
+  return console.log("first");
 }
 
-let expression = function() {
-  return 0;
-}
+let expression = function () {
+  return console.log("first 2");
+};
+declaration();
+
+expression();
